@@ -1,0 +1,840 @@
+2023-04-12 21:38:00,746 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:38:01,682 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 21:38:01,703 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:38:02,410 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681331881699&signature=9b4843626b127ebf872e4576aede202607b473fe05042f3fd89ed592431122d7 HTTP/1.1" 401 46
+2023-04-12 21:38:02,416 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-04-12 21:38:02,417 INFO :: Binance Futures Client successfully initialized
+2023-04-12 21:38:02,472 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:38:02,748 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-04-12 21:38:02,755 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-04-12 21:38:02,760 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:38:03,224 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-04-12 21:38:03,231 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-04-12 21:38:03,232 INFO :: Bitmex Client successfully initialized
+2023-04-12 21:51:20,520 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:51:21,374 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 21:51:21,393 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:51:21,839 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681332681390&signature=e12b5d466fa3bef5ab0b0a7232e71de0c7d27aebdd8791ea89b74322d20fce47 HTTP/1.1" 200 None
+2023-04-12 21:51:21,848 INFO :: Binance Futures Client successfully initialized
+2023-04-12 21:51:21,889 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:51:22,037 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 21:51:22,054 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:51:22,158 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 21:51:22,160 INFO :: Bitmex Client successfully initialized
+2023-04-12 21:54:26,866 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:54:27,626 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 21:54:27,648 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:54:28,343 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681332867644&signature=bc1568fff9622a279e6cdd849872ded2978b41e849c0557435b74bf4d6ad59cf HTTP/1.1" 200 None
+2023-04-12 21:54:28,353 INFO :: Binance Futures Client successfully initialized
+2023-04-12 21:54:28,395 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:54:28,511 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 21:54:28,530 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:54:28,638 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 21:54:28,646 INFO :: Bitmex Client successfully initialized
+2023-04-12 21:56:18,074 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:56:18,454 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 21:56:18,475 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:56:19,235 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681332978472&signature=6001b98ee1ad02320dd5acf3462253c340bec5956d816e20662e0f07198d367c HTTP/1.1" 200 None
+2023-04-12 21:56:19,245 INFO :: Binance Futures Client successfully initialized
+2023-04-12 21:56:19,292 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:56:19,426 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 21:56:19,446 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:56:19,653 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 21:56:19,661 INFO :: Bitmex Client successfully initialized
+2023-04-12 21:57:12,339 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:57:13,101 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 21:57:13,125 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:57:13,558 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681333033120&signature=bb61a340f9674eaf3e00d4eb4806de5b8013bb6facc3ee2ef9d54158896c1f90 HTTP/1.1" 200 None
+2023-04-12 21:57:13,566 INFO :: Binance Futures Client successfully initialized
+2023-04-12 21:57:13,604 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:57:13,807 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 21:57:13,820 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:57:13,991 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 21:57:13,998 INFO :: Bitmex Client successfully initialized
+2023-04-12 21:59:22,215 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:59:23,077 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 21:59:23,095 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 21:59:23,431 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681333163093&signature=d99a23f76a5ce38c449e138892abeb624ff68b4b890076de09210373275b5bc1 HTTP/1.1" 200 None
+2023-04-12 21:59:23,440 INFO :: Binance Futures Client successfully initialized
+2023-04-12 21:59:23,488 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:59:23,697 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 21:59:23,707 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 21:59:23,974 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 21:59:23,982 INFO :: Bitmex Client successfully initialized
+2023-04-12 21:59:24,116 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:24,116 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:24,116 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:24,116 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:24,203 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:24,203 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:24,203 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:24,203 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:26,271 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:26,272 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:26,273 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:26,273 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:26,883 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:26,884 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:26,884 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:26,884 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:28,327 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:28,327 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:28,328 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:28,328 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:29,645 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:29,645 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:29,645 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:29,645 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:30,381 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:30,382 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:30,382 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:30,382 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:32,405 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:32,405 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:32,405 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:32,406 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:32,434 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:32,434 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:32,435 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:32,435 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:34,499 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:34,500 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:34,500 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:34,501 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:34,990 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:34,991 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:34,992 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:34,992 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:36,564 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:36,566 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:36,566 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:36,566 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:37,588 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:37,589 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:37,590 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:37,590 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:38,632 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:38,632 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:38,633 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:38,633 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:40,386 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:40,386 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:40,387 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:40,387 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:40,698 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:40,698 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:40,698 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:40,699 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:42,757 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:42,758 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:42,758 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:42,758 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:43,002 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:43,003 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:43,003 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:43,003 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:44,820 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:44,821 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:44,821 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:44,821 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:45,725 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:45,726 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:45,726 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:45,726 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:46,887 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:46,888 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:46,889 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:46,889 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:48,481 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:48,483 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:48,483 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:48,483 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:48,970 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:48,971 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:48,971 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:48,971 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:51,032 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:51,032 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:51,032 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:51,033 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:51,069 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:51,069 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:51,069 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:51,070 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:53,140 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:53,141 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:53,141 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:53,141 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:53,669 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:53,670 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:53,671 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:53,671 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:55,201 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:55,202 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:55,202 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:55,202 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:56,578 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:56,580 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:56,580 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:56,580 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:57,275 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:57,276 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:57,276 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:57,276 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:59,333 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:59,333 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:59,333 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:59,334 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:59,348 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 21:59:59,349 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 21:59:59,349 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 21:59:59,350 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:01,403 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:01,404 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:01,404 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:01,404 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:01,925 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:01,925 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:01,925 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:01,926 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:03,463 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:03,463 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:03,463 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:03,463 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:04,669 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:04,670 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:04,671 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:04,671 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:05,539 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:05,540 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:05,540 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:05,540 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:07,243 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:07,244 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:07,244 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:07,244 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:07,600 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:07,601 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:07,601 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:07,601 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:09,652 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:09,653 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:09,654 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:09,654 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:09,874 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:09,874 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:09,874 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:09,875 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:11,724 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:11,725 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:11,725 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:11,726 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:12,502 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:12,503 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:12,503 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:12,503 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:13,787 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:13,788 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:13,788 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:13,788 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:15,318 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:15,319 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:15,319 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x7fa8b923d3d0>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:15,319 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:15,883 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:00:15,884 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:00:15,884 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x7fa8b923d820>>: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:00:15,884 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2023-04-12 22:12:20,414 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:12:20,807 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 22:12:20,829 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:12:21,187 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681333940825&signature=078fd2a5bf3e228c433be06e2b81bc4b10e91d7071811c709d9d4ae1318bcd9d HTTP/1.1" 200 None
+2023-04-12 22:12:21,195 INFO :: Binance Futures Client successfully initialized
+2023-04-12 22:12:21,237 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:12:21,383 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 22:12:21,398 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:12:21,500 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 22:12:21,504 INFO :: Bitmex Client successfully initialized
+2023-04-12 22:12:21,911 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:21,912 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:21,912 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:22,263 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:22,263 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:22,264 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:23,978 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:23,980 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:23,980 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:25,006 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:25,006 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:25,007 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:26,051 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:26,052 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:26,052 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:27,600 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:27,600 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:27,600 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:28,108 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:28,108 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:28,109 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:30,171 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:30,172 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:30,172 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:30,198 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:30,198 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:30,198 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:32,244 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:32,245 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:32,245 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:32,774 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:32,775 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:32,775 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:34,307 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:34,309 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:34,309 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:35,397 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:35,399 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:35,399 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:36,364 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:36,364 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:36,364 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:37,987 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:37,988 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:37,988 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:38,436 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:38,444 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:38,445 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:40,508 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:40,509 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:40,509 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:40,598 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:40,599 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:40,599 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:42,579 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:42,580 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:42,580 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:43,189 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:43,189 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:43,190 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:44,638 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:44,638 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:44,639 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:45,777 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:45,777 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:45,777 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:46,721 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:46,722 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:46,722 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:48,582 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:48,582 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:48,582 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:48,777 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:48,778 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:48,778 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:50,833 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:50,834 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:50,834 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:51,346 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:51,347 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:51,347 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:52,892 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:52,894 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:52,894 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:53,984 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:53,985 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:53,985 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:54,977 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:54,978 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:54,978 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:56,607 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:56,608 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:56,608 WARNING :: Binance Websocket connection closed
+2023-04-12 22:12:57,051 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:57,052 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:57,052 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:59,132 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:59,132 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:59,133 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:12:59,436 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:12:59,437 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:12:59,437 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:01,199 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:01,199 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:01,200 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:02,030 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:02,031 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:02,032 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:03,253 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:03,254 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:03,254 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:04,670 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:04,671 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:04,672 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:05,319 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:05,319 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:05,319 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:07,374 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:07,375 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:07,375 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:07,411 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:07,411 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:07,411 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:09,431 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:09,432 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:09,432 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:10,017 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:10,018 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:10,018 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:11,492 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:11,493 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:11,493 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:12,592 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:12,593 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:12,593 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:13,565 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:13,566 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:13,566 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:15,183 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:15,184 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:15,184 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:15,627 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:15,628 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:15,628 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:17,693 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:17,696 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:17,696 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:17,776 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:17,777 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:17,777 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:19,766 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:19,766 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:19,767 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:20,634 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:20,634 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:20,634 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:21,827 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:21,828 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:21,828 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:23,243 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:23,244 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:23,244 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:23,902 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:23,903 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:23,903 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:25,945 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:25,946 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:25,946 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:25,963 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:25,964 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:25,964 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:28,026 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:28,027 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:28,027 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:28,702 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:28,702 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:28,703 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:30,102 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:30,103 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:30,103 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:31,327 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:31,328 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:31,329 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:32,159 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:32,160 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:32,160 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:33,930 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:33,931 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:33,931 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:34,219 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:34,220 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:34,220 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:36,290 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:36,291 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:36,291 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:36,709 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:36,710 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:36,710 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:38,430 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:38,430 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:38,431 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:39,308 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:39,308 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:39,308 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:40,486 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:40,487 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:40,487 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:41,980 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:41,981 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:41,982 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:42,544 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:42,544 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:42,545 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:44,596 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:44,597 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:44,597 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:44,661 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:44,661 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:44,662 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:47,025 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:47,026 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:47,027 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:47,235 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:47,235 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:47,236 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:49,081 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:49,081 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:49,081 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:49,832 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:49,833 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:49,833 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:51,153 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:51,154 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:51,154 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:52,582 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:52,583 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:52,584 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:53,223 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:53,224 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:53,224 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:55,194 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:55,194 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:55,195 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:55,291 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:55,291 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:55,291 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:57,345 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:57,349 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:57,349 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:13:57,909 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:57,910 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:57,910 WARNING :: Binance Websocket connection closed
+2023-04-12 22:13:59,418 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:13:59,419 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:13:59,419 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:00,513 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:00,514 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:00,514 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:01,476 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:01,477 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:01,477 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:03,089 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:03,091 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:03,092 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:03,534 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:03,535 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:03,535 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:05,587 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:05,587 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:05,587 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:05,692 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:05,693 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:05,693 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:07,656 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:07,656 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:07,657 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:08,273 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:08,274 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:08,274 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:09,709 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:09,710 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:09,710 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:10,882 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:10,895 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:10,896 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:11,768 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:11,769 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:11,769 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:13,551 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:13,552 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:13,552 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:13,836 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:13,837 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:13,837 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:15,899 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:15,901 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:15,901 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:16,133 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:16,134 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:16,134 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:17,959 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:17,971 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:17,972 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:18,899 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:18,900 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:18,900 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:20,041 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:20,042 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:20,042 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:21,663 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:21,663 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:21,663 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:22,112 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:22,113 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:22,113 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:24,168 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:24,169 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:24,169 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:24,257 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:24,257 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:24,258 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:26,224 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:26,225 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:26,225 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:26,989 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:26,990 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:26,990 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:28,285 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:28,286 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:28,287 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:29,584 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:29,585 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:29,585 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:30,347 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:30,347 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:30,347 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:32,211 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:32,212 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:32,212 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:32,411 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:32,412 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:32,412 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:34,476 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:34,477 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:34,477 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:34,815 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:34,816 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:34,816 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:36,540 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:36,541 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:36,541 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:37,392 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:37,393 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:37,393 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:38,598 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:38,599 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:38,599 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:40,300 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:40,300 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:40,300 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:40,666 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:40,667 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:40,667 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:42,716 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:42,717 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:42,718 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:42,864 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:42,865 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:42,865 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:44,776 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:44,777 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:44,777 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:45,426 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:45,427 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:45,427 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:46,850 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:46,851 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:46,851 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:48,288 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:48,288 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:48,288 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:48,911 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:48,912 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:48,912 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:50,969 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:50,969 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:50,970 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:50,982 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:50,983 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:50,983 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:53,024 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:53,025 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:53,025 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:53,716 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:53,716 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:53,717 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:55,084 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:55,085 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:55,085 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:56,287 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:56,287 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:56,288 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:57,190 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:57,191 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:57,191 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:14:58,873 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:58,874 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:58,874 WARNING :: Binance Websocket connection closed
+2023-04-12 22:14:59,263 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:14:59,264 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:14:59,264 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:01,341 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:01,342 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:01,342 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:01,494 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:01,495 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:01,495 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:03,402 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:03,402 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:03,402 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:04,121 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:04,121 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:04,122 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:05,465 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:05,465 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:05,466 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:07,130 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:07,130 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:07,131 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:07,523 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:07,532 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:07,532 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:09,597 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:09,598 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:09,598 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:09,873 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:09,873 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:09,873 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:11,651 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:11,656 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:11,656 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:12,492 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:12,493 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:12,493 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:13,714 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:13,715 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:13,715 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:15,321 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:15,322 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:15,322 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:15,775 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:15,775 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:15,775 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:17,836 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:17,837 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:17,837 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:18,068 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:18,068 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:18,068 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:19,904 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:19,905 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:19,905 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:20,853 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:20,854 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:20,854 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:21,985 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:21,986 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:21,986 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:23,607 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:23,607 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:23,608 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:24,036 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:24,037 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:24,037 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:26,096 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:26,097 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:26,097 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:26,243 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:26,244 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:26,244 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:28,166 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:28,166 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:28,167 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:29,026 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:29,027 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:29,027 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:30,237 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:30,237 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:30,237 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:31,619 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:31,620 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:31,620 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:32,303 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:32,304 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:32,304 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:34,213 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:34,224 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:34,224 WARNING :: Binance Websocket connection closed
+2023-04-12 22:15:34,373 ERROR :: Bitmex connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2023-04-12 22:15:34,389 ERROR :: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123) - goodbye
+2023-04-12 22:15:34,390 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:15:36,554 INFO :: Websocket connected
+2023-04-12 22:15:36,554 INFO :: Bitmex connection opened
+2023-04-12 22:15:37,434 INFO :: Websocket connected
+2023-04-12 22:15:37,435 INFO :: Binance connection opened
+2023-04-12 22:15:37,436 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-12 22:16:02,272 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:16:03,093 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 22:16:03,113 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:16:03,871 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681334163108&signature=7e5cb7bebf7ca6f27fda713a03f37bfc3f5c9ca47923188df6b99031ca2c6235 HTTP/1.1" 200 None
+2023-04-12 22:16:03,880 INFO :: Binance Futures Client successfully initialized
+2023-04-12 22:16:03,884 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:16:04,090 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 22:16:04,110 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:16:04,307 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 22:16:04,314 INFO :: Bitmex Client successfully initialized
+2023-04-12 22:16:04,699 INFO :: Websocket connected
+2023-04-12 22:16:04,699 INFO :: Bitmex connection opened
+2023-04-12 22:16:05,046 INFO :: Websocket connected
+2023-04-12 22:16:05,053 INFO :: Binance connection opened
+2023-04-12 22:16:05,071 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-12 22:18:28,776 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:18:29,596 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 22:18:29,617 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:18:29,968 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681334309613&signature=d79389dc00dc20fd221d4fa73d49c5424bea6f8b4880976adf700c36713ec0b4 HTTP/1.1" 200 None
+2023-04-12 22:18:29,977 INFO :: Binance Futures Client successfully initialized
+2023-04-12 22:18:30,027 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:18:30,178 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 22:18:30,190 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:18:30,334 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 22:18:30,337 INFO :: Bitmex Client successfully initialized
+2023-04-12 22:18:30,546 INFO :: Websocket connected
+2023-04-12 22:18:30,546 INFO :: Bitmex connection opened
+2023-04-12 22:18:31,416 INFO :: Websocket connected
+2023-04-12 22:18:31,416 INFO :: Binance connection opened
+2023-04-12 22:18:31,417 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-12 22:21:40,275 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:21:41,030 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 22:21:41,045 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:21:41,473 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681334501041&signature=7438bfc02c9da067b1e952e1414854cff3e37152bfca7325c3b21640f86f66d7 HTTP/1.1" 200 None
+2023-04-12 22:21:41,482 INFO :: Binance Futures Client successfully initialized
+2023-04-12 22:21:41,527 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:21:41,686 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 22:21:41,702 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:21:41,827 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 22:21:41,831 INFO :: Bitmex Client successfully initialized
+2023-04-12 22:21:42,093 INFO :: Websocket connected
+2023-04-12 22:21:42,093 INFO :: Bitmex connection opened
+2023-04-12 22:21:42,690 INFO :: Websocket connected
+2023-04-12 22:21:42,690 INFO :: Binance connection opened
+2023-04-12 22:21:42,691 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-12 22:23:55,374 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:23:55,753 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 22:23:55,770 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:23:56,080 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681334635767&signature=fe327edcd330492c86fe69528bbcfa9a974d542011ed10a55ca872ab348326bb HTTP/1.1" 200 None
+2023-04-12 22:23:56,088 INFO :: Binance Futures Client successfully initialized
+2023-04-12 22:23:56,143 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:23:56,266 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 22:23:56,286 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:23:56,404 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 22:23:56,410 INFO :: Bitmex Client successfully initialized
+2023-04-12 22:23:56,652 INFO :: Websocket connected
+2023-04-12 22:23:56,652 INFO :: Bitmex connection opened
+2023-04-12 22:23:57,561 INFO :: Websocket connected
+2023-04-12 22:23:57,562 INFO :: Binance connection opened
+2023-04-12 22:23:57,562 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-12 22:25:05,557 WARNING :: Binance Websocket connection closed
+2023-04-12 22:25:05,591 WARNING :: Bitmex Websocket connection closed
+2023-04-12 22:25:20,392 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:25:20,811 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-12 22:25:20,828 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-12 22:25:21,737 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681334720824&signature=dedd8d12a16c960ecbd4097bb2186088516c0f3a8f208a991890e44f77bd1ad6 HTTP/1.1" 200 None
+2023-04-12 22:25:21,743 INFO :: Binance Futures Client successfully initialized
+2023-04-12 22:25:21,811 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:25:22,049 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-12 22:25:22,071 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-12 22:25:22,271 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-12 22:25:22,279 INFO :: Bitmex Client successfully initialized
+2023-04-12 22:25:22,647 INFO :: Websocket connected
+2023-04-12 22:25:22,648 INFO :: Bitmex connection opened
+2023-04-12 22:25:23,039 INFO :: Websocket connected
+2023-04-12 22:25:23,052 INFO :: Binance connection opened
+2023-04-12 22:25:23,077 INFO :: Binance: subscribing to: btcusdt@bookTicker
