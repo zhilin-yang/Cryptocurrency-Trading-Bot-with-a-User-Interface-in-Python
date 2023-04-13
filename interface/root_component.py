@@ -83,7 +83,7 @@ class Root(tk.Tk):
     def _update_ui(self):
 
         """
-        Called by itself every 1500 seconds. It is similar to an infinite loop but runs within the same Thread
+        Called by itself(update) every 1500 seconds. It is similar to an infinite loop but runs within the same Thread
         as .mainloop() thanks to the .after() method, thus it is "thread-safe" to update elements of the interface
         in this method. Do not update Tkinter elements from another Thread like the websocket thread.
         :return:

@@ -1091,3 +1091,180 @@
 2023-04-13 09:48:47,136 INFO :: Bitmex connection opened
 2023-04-13 09:48:47,137 INFO :: Binance: subscribing to: btcusdt@bookTicker
 2023-04-13 09:49:16,419 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x0000015AC1519D68>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 13:41:17,934 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 13:41:19,079 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-13 13:41:19,126 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 13:41:19,835 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681389679126&signature=07494ba43022aacfa2eeab38b53a681a65e6f549c62e7f5ed2ed246a3b3f6cba HTTP/1.1" 200 None
+2023-04-13 13:41:19,866 INFO :: Binance Futures Client successfully initialized
+2023-04-13 13:41:19,866 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 13:41:20,143 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-13 13:41:20,253 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 13:41:20,440 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-13 13:41:20,456 INFO :: Bitmex Client successfully initialized
+2023-04-13 13:41:20,932 INFO :: Bitmex connection opened
+2023-04-13 13:41:21,170 INFO :: Binance connection opened
+2023-04-13 13:41:21,170 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-13 13:41:47,140 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x0000024377F19D68>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 13:41:47,170 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x00000243780F00F0>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:18:50,298 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:18:51,422 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-13 15:18:51,488 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:18:52,223 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681395531472&signature=0fc3602a140a1f32cba967b48c1dc1a50d5f9e3280f8e4ae17cfb2347c36411e HTTP/1.1" 200 None
+2023-04-13 15:18:52,253 INFO :: Binance Futures Client successfully initialized
+2023-04-13 15:18:52,285 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:18:52,522 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-13 15:18:52,538 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:18:52,696 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-13 15:18:52,711 INFO :: Bitmex Client successfully initialized
+2023-04-13 15:18:53,030 INFO :: Bitmex connection opened
+2023-04-13 15:18:53,489 INFO :: Binance connection opened
+2023-04-13 15:18:53,559 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-13 15:20:26,542 INFO :: Binance: subscribing to: aaveusdt@bookTicker
+2023-04-13 15:20:26,572 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:20:27,420 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=AAVEUSDT HTTP/1.1" 200 None
+2023-04-13 15:20:54,586 INFO :: Binance: subscribing to: thetausdt@bookTicker
+2023-04-13 15:20:54,616 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:20:55,414 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=THETAUSDT HTTP/1.1" 200 None
+2023-04-13 15:21:31,988 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x0000027564389898>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:21:32,285 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x00000275644A2320>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:22:52,043 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:22:53,038 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-13 15:22:53,069 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:22:53,797 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681395773069&signature=33918d4b4e21194b13dec8f13db5aae9adb1f50e5c0d7cd891151b6ceb45a047 HTTP/1.1" 200 None
+2023-04-13 15:22:53,813 INFO :: Binance Futures Client successfully initialized
+2023-04-13 15:22:53,813 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:22:54,141 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-13 15:22:54,188 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:22:54,407 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-13 15:22:54,422 INFO :: Bitmex Client successfully initialized
+2023-04-13 15:22:54,825 INFO :: Bitmex connection opened
+2023-04-13 15:22:54,992 INFO :: Binance connection opened
+2023-04-13 15:22:55,007 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-13 15:23:02,675 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x0000025E35E89CF8>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:23:02,987 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x0000025E3605F128>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:27:20,625 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:27:21,657 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-13 15:27:21,688 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:27:22,449 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681396041688&signature=d72bef5a39d6e5e93a10ef6a386ce55cef81a7dc6d067bd9f2cfb58b66802e9b HTTP/1.1" 200 None
+2023-04-13 15:27:22,449 INFO :: Binance Futures Client successfully initialized
+2023-04-13 15:27:22,449 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:27:22,698 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-13 15:27:22,735 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:27:22,908 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-13 15:27:22,923 INFO :: Bitmex Client successfully initialized
+2023-04-13 15:27:23,203 INFO :: Bitmex connection opened
+2023-04-13 15:27:23,704 INFO :: Binance connection opened
+2023-04-13 15:27:23,704 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-13 15:27:30,672 INFO :: Binance: subscribing to: bakeusdt@bookTicker
+2023-04-13 15:27:30,672 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:27:31,441 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:27:31,441 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:27:32,964 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:27:33,710 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:27:33,710 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:27:35,223 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:27:35,951 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:27:35,966 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:27:37,479 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:27:37,849 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:27:37,865 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:27:39,369 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:27:40,088 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:27:40,088 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:27:41,781 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:27:49,699 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:27:49,714 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:27:51,229 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:27:57,804 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:27:57,819 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:27:59,336 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:27:59,692 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:27:59,692 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:28:01,201 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:28:01,529 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:28:01,544 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:28:03,059 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:28:03,790 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:28:03,790 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:28:05,302 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:28:05,657 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:28:05,657 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:28:07,166 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:28:07,510 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:28:07,510 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:28:09,042 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:28:09,779 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:28:09,794 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:28:11,302 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:28:11,676 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:28:11,692 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:28:13,209 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:28:13,553 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:28:13,568 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:28:15,097 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:28:15,941 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BAKEUSDT HTTP/1.1" 400 97
+2023-04-13 15:28:15,941 ERROR :: Error while making GET request to /fapi/v1/ticker/bookTicker: {'code': -4108, 'msg': 'Symbol is on delivering or delivered or settling or closed or pre-trading.'} (error code 400)
+2023-04-13 15:28:55,190 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x000001E5E09E9D68>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:28:55,222 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x000001E5E0BBF0F0>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:29:58,356 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:29:59,318 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-13 15:29:59,334 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:30:00,051 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681396199334&signature=61725740d8fd89bf1780840856bd51261a56781a68b61ad0973c679c6d0eb483 HTTP/1.1" 200 None
+2023-04-13 15:30:00,051 INFO :: Binance Futures Client successfully initialized
+2023-04-13 15:30:00,051 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:30:00,426 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-13 15:30:00,441 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:30:00,672 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-13 15:30:00,672 INFO :: Bitmex Client successfully initialized
+2023-04-13 15:30:01,127 INFO :: Bitmex connection opened
+2023-04-13 15:30:01,236 INFO :: Binance connection opened
+2023-04-13 15:30:01,252 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-13 15:30:41,494 INFO :: Binance: subscribing to: egldusdt@bookTicker
+2023-04-13 15:30:41,494 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:30:53,192 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=EGLDUSDT HTTP/1.1" 200 None
+2023-04-13 15:32:32,028 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x0000023E9B489D68>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:32:32,090 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x0000023E9B6600F0>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:34:50,344 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:34:52,758 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-13 15:34:52,794 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:34:53,091 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681396492778&signature=3685591e520bafe25347314440873b1be2a78bc6262748681388543a254446c3 HTTP/1.1" 200 None
+2023-04-13 15:34:53,107 INFO :: Binance Futures Client successfully initialized
+2023-04-13 15:34:53,107 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:34:53,420 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-13 15:34:53,513 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:34:53,732 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-13 15:34:53,772 INFO :: Bitmex Client successfully initialized
+2023-04-13 15:34:53,929 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:34:54,213 INFO :: Bitmex connection opened
+2023-04-13 15:34:54,291 INFO :: Binance connection opened
+2023-04-13 15:34:54,291 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-13 15:34:54,650 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=EGLDUSDT HTTP/1.1" 200 None
+2023-04-13 15:34:56,163 INFO :: Binance: subscribing to: egldusdt@bookTicker
+2023-04-13 15:49:21,017 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:49:21,810 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=XEMUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2023-04-13 15:49:21,830 INFO :: Binance: subscribing to: xemusdt@aggTrade
+2023-04-13 15:49:21,830 INFO :: Binance: subscribing to: xemusdt@bookTicker
+2023-04-13 15:50:24,421 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:50:24,853 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=1000LUNCBUSD&interval=1m&limit=1000 HTTP/1.1" 200 None
+2023-04-13 15:50:24,883 INFO :: Binance: subscribing to: 1000luncbusd@aggTrade
+2023-04-13 15:50:24,883 INFO :: Binance: subscribing to: 1000luncbusd@bookTicker
+2023-04-13 15:53:20,879 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x000002D0A80AACC0>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:53:20,957 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x000002D0A8290198>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:53:28,171 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:53:28,892 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-04-13 15:53:28,923 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:53:29,660 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1681397608908&signature=235e7452ab1218eb2d232b916ecafa805dd21834cdcadd52d1efdd5012c4d444 HTTP/1.1" 200 None
+2023-04-13 15:53:29,676 INFO :: Binance Futures Client successfully initialized
+2023-04-13 15:53:29,676 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:53:30,020 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 200 None
+2023-04-13 15:53:30,098 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-04-13 15:53:30,258 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 200 None
+2023-04-13 15:53:30,273 INFO :: Bitmex Client successfully initialized
+2023-04-13 15:53:30,429 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-04-13 15:53:30,538 INFO :: Bitmex connection opened
+2023-04-13 15:53:30,759 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=EGLDUSDT HTTP/1.1" 200 None
+2023-04-13 15:53:31,009 INFO :: Binance connection opened
+2023-04-13 15:53:31,009 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2023-04-13 15:53:32,307 INFO :: Binance: subscribing to: egldusdt@bookTicker
+2023-04-13 15:56:51,584 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x000001F295479D68>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'
+2023-04-13 15:56:51,709 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x000001F29564F0F0>>: _on_close() missing 2 required positional arguments: 'close_status_code' and 'close_msg'

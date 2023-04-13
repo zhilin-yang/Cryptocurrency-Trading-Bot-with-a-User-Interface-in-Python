@@ -4,6 +4,7 @@ from datetime import datetime
 from interface.styling import *
 
 
+# inherit from tk.Frame widget
 class Logging(tk.Frame):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
