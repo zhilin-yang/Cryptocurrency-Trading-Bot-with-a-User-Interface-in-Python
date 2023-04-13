@@ -227,6 +227,8 @@ class BitmexClient:
             "Bitmex Websocket connection closed with status code: {} and message: {}".format(close_status_code,
                                                                                               close_msg))
         self.ws_connected = False
+        self.close_status_code=close_status_code
+        self.close_msg = close_msg
 
     def _on_error(self, ws, msg: str):
         logger.error("Bitmex connection error: %s", msg)
