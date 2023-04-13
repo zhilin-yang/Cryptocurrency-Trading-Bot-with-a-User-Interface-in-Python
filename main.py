@@ -30,7 +30,9 @@ if __name__ == '__main__':  # Execute the following code only when executing mai
     binance = BinanceClient("b2276a0d79f2236bbbeaca2d2da0ad8cd1be083bcc7f09b82c46e4791b5a95de",
                             "5f255ce76380900460706705fa7e12505025812dc5cd32c8626b82ba618fda60",
                             testnet=True, futures=True)
-    bitmex = BitmexClient("Ty8XK-J4-SSogKAmI3LF77mr	", "sM1GVhU3Hn6hRzcUvzpbPRfttOn9hZabQvx9m_0_GGNO9Uoz", testnet=True)
+    bitmex = BitmexClient("2DR0LM4lq8gRg9yb3B3n85Is",
+                          "o-p_Joys8Gi8InvgLHSmCBpdPmdMwIMGp666y7_hb3P0TQUG",
+                          testnet=True)
 
     root = Root(binance, bitmex)
     root.mainloop()

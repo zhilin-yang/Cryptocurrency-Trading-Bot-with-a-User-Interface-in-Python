@@ -223,10 +223,11 @@ class BitmexClient:
         self.subscribe_channel("trade")
 
     def _on_close(self, ws, close_status_code, close_msg):
-        self.logger.warning(
+        logger.warning(
             "Bitmex Websocket connection closed with status code: {} and message: {}".format(close_status_code,
                                                                                               close_msg))
         self.ws_connected = False
+
     def _on_error(self, ws, msg: str):
         logger.error("Bitmex connection error: %s", msg)
 

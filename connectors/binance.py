@@ -404,7 +404,7 @@ class BinanceClient:
         :return:
         """
 
-        self.logger.warning("Binance Websocket connection closed with status code: {} and message: {}".format(close_status_code, close_msg))
+        logger.warning("Binance Websocket connection closed with status code: {} and message: {}".format(close_status_code, close_msg))
         self.ws_connected = False
 
 
