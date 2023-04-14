@@ -370,6 +370,41 @@ class BreakoutStrategy(Strategy):
                 self._open_position(signal_result)
 
 
+class BreakoutStrategy2(Strategy):
+    def __init__(self, client, contract: Contract, exchange: str, timeframe: str, balance_pct: float, take_profit: float,
+                 stop_loss: float, other_params: Dict):
+        super().__init__(client, contract, exchange, timeframe, balance_pct, take_profit, stop_loss, "Breakout")
+
+        self._opening_range_min = other_params['opening_range_min']
+        self._opening_range_max = other_params['opening_range_max']
+
+    def _check_signal(self) -> int:
+
+        """
+        Use candlesticks OHLC data to define Long or Short patterns.
+        :return: 1 for a Long signal, -1 for a Short signal, 0 for no signal
+        """
+
+        if self.candles[-1].close > self._opening_range_max:
+            return 1
+        elif self.candles[-1].close < self._opening_range_min:
+            return -1
+        else:
+            return 0
+
+    def check_trade(self, tick_type: str):
+
+        """
+        To be triggered from the websocket _on_message() methods
+        :param tick_type: same_candle or new_candle
+        :return:
+        """
+
+        if not self.ongoing_position:
+            signal_result = self._check_signal()
+
+            if signal_result in [1, -1]:
+                self._open_position(signal_result)
 
 
 

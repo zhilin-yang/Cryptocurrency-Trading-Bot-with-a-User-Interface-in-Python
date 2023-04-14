@@ -63,7 +63,7 @@ class StrategyEditor(tk.Frame):
         # The width may need to be adjusted depending on your screen size and resolution
         self._base_params = [
             {"code_name": "strategy_type", "widget": tk.OptionMenu, "data_type": str,
-             "values": ["Technical", "Breakout"], "width": 10, "header": "Strategy"},
+             "values": ["Technical", "Breakout","Breakout2"], "width": 10, "header": "Strategy"},
             {"code_name": "contract", "widget": tk.OptionMenu, "data_type": str, "values": self._all_contracts,
              "width": 15, "header": "Contract"},
             {"code_name": "timeframe", "widget": tk.OptionMenu, "data_type": str, "values": self._all_timeframes,
@@ -89,7 +89,11 @@ class StrategyEditor(tk.Frame):
             ],
             "Breakout": [
                 {"code_name": "min_volume", "name": "Minimum Volume", "widget": tk.Entry, "data_type": float},
-            ]
+            ],
+            "Breakout2": [
+                {"code_name": "opening_range_min", "name": "opening range min", "widget": tk.Entry, "data_type": float},
+                {"code_name": "opening_range_max", "name": "opening range max", "widget": tk.Entry, "data_type": float}
+            ],
         }
 
         for idx, h in enumerate(self._base_params):
